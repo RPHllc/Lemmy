@@ -1,0 +1,6 @@
+# This is a helper file, DO NOT CHANGE IT
+# The nginx.conf file is a template file that supports ${xx} as environment variables.
+# Other then the inclusion of ${xxx} feature, the synstax is identical to regualr nginx.conf file
+# You can assign environment variables using docker-compose
+
+include /etc/nginx/conf.d/nginx.conf;
